@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract Perpustakaan",
+						"name": "_perpustakaan",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "lakukanOperasiBuku",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "perpustakaan",
+				"outputs": [
+					{
+						"internalType": "contract Perpustakaan",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"leniiii.sol": "PenggunaPerpustakaan"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"leniiii.sol": {
+			"keccak256": "0x6148188f6eaf79fb0bd834118fb75d5032c816b0caf16f347ac4bb8cf07ad942",
+			"urls": [
+				"bzz-raw://4e6ad4fee06ba0205142cf92c99e6af39989a04573471329ba5bf60a29345397",
+				"dweb:/ipfs/QmcAoqW56XJMp3qnrqzDEavC7nrYaCAKkTDHq2rryAYebb"
+			]
+		}
+	},
+	"version": 1
+}

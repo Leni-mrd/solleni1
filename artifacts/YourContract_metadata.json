@@ -1,0 +1,158 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "daftarBuku",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "hargaSebuahPercaya",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "tereLiye",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "tahunTerbit",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_9786029474121",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_hargaSebuahPercaya",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_tereLiye",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_2017",
+						"type": "uint256"
+					}
+				],
+				"name": "deleteBuku",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_9786029474121",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_hargaSebuahPercaya",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_tereLiye",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_2017",
+						"type": "uint256"
+					}
+				],
+				"name": "perbaharuiBuku",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_9786029474121",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_hargaSebuahPercaya",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_tereLiye",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_2017",
+						"type": "uint256"
+					}
+				],
+				"name": "tambahBuku",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"leniiii.sol": "YourContract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"leniiii.sol": {
+			"keccak256": "0x7b9dd249333500d83249e6ff522daa1b1f32d7155bc5c405b277e45fd3f2020f",
+			"urls": [
+				"bzz-raw://63abc62021d1367ccfe2b118bc0e0b171d6e841f5bdd50ec4b67452fa99576ae",
+				"dweb:/ipfs/QmSdXnu2AA6WuQkPq9yJ1vHUmJd1bpeVGGQp1PGUHDgEC5"
+			]
+		}
+	},
+	"version": 1
+}
